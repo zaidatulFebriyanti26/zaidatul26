@@ -39,6 +39,16 @@ Jitter		        17.667.000 ms        Buruk
 RATA RATA INDEKS ; 6.872.193,75 
 
 Kesimpulan
-Berdasarkan tabel perhitungan, terlihat bahwa koneksi internet  saya memiliki throughput yang sedang, 
-packet loss yang baik, delay yang buruk, dan jitter yang buruk.
-Hal ini mengindikasikan koneksi internet saya mungkin mengalami masalah dengan latency dan jitter yang tinggi, meskipun kecepatan download cukup baik.
+**Kesimpulan:**
+
+Berdasarkan hasil pengukuran menggunakan Wireshark selama 9 menit untuk throughput, packet loss, delay, dan jitter, diperoleh beberapa poin penting:
+
+1. Throughput sebesar 775 Mbps tergolong sedang. Ini berarti kecepatan transfer data yang terjadi cukup memadai, meskipun masih ada ruang untuk perbaikan agar menjadi optimal.
+  
+2. Packet Loss sebesar 0,022% dikategorikan baik. Hampir tidak ada paket yang hilang selama transmisi, yang menunjukkan kualitas jaringan yang baik dari segi keandalan pengiriman data.
+
+3. Delay dengan nilai 9.821.000 ms tergolong buruk. Waktu tunda atau latency yang sangat tinggi menunjukkan bahwa ada keterlambatan yang signifikan dalam transmisi data. Hal ini bisa mempengaruhi performa jaringan, terutama untuk aplikasi real-time seperti video call atau gaming.
+
+4. Jitter sebesar 17.667.000 ms juga tergolong buru. Variasi waktu antar paket yang besar menandakan ketidakstabilan jaringan, yang dapat menyebabkan gangguan dalam aliran data, terutama dalam komunikasi suara atau video yang memerlukan kestabilan.
+
+Secara keseluruhan, meskipun throughput dan packet loss menunjukkan hasil yang cukup baik, performa jaringan secara keseluruhan tergolong kurang baik karena tingginya nilai delay dan jitter. Hal ini dapat berdampak negatif pada pengalaman pengguna dalam menggunakan layanan yang memerlukan latensi rendah dan stabilitas tinggi.
